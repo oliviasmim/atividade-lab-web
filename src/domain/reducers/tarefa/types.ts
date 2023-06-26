@@ -42,6 +42,7 @@ export interface Remove {
 
 export interface Add {
   type: TarefaActionsType["add"];
+  // eslint-disable-next-line @typescript-eslint/ban-types
   payload: {};
 }
 
